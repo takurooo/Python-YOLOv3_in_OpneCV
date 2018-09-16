@@ -26,6 +26,17 @@ darknet_root/
     　│　└ yolov3.cfg
 ```
 
+Place these files in model dir.
+```
+current_dir/  
+    　├ data/  
+	　├ utils/  
+    　├ model/  
+    　│　└ yolov3.cfg
+　    │　└ yolov3.weights
+　    │　└ coco.names
+```
+
 # Usage
 ```
 python main_img.py <image_file_path>
